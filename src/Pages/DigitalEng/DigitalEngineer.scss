@@ -1,0 +1,259 @@
+
+
+.digital_img{
+   
+    width: 100%;
+
+}
+
+
+.digital_slide-vido{
+    height: 85vh;
+    width: 100%;
+}
+
+.digital_h3{
+    font-size: 70px;
+    width:50%;
+    margin-top: -300px;
+    font-weight: 600;
+    margin-left: 53px;
+    color: aliceblue;
+}
+
+.digital_eng_p{
+    margin:110px;
+    font-size:23px;
+    font-family: Poppins;
+    width:65%;
+    font-weight: 300;
+}
+
+.digital_trans_imgs{
+   
+   
+    margin-top: -20px;
+    overflow: hidden;
+}
+
+.digital_trans_imgs>img{
+    width: 100%;
+    height: 70vh;
+    transition: transform 1s;
+}
+
+.digital_trans_imgs:hover>img{
+    transform: scale(1.2);
+}
+ 
+
+
+
+.digitals_trns_h3{
+    font-size: 70px;
+    width:80%;
+    position: absolute;
+     margin-top: -340px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.digts_trns_btn{
+    background-color: aqua;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-radius: 3.5rem;
+    border-color: aqua;
+    font-size: 15px;
+    font-weight: 600;
+    height:43px;
+    width:10.2rem;
+    margin-left:45px;
+    position: absolute;
+    margin-top: -120px;
+}
+
+
+
+// Digital Client 
+
+.digital_eng_imgs{
+    
+    width:50%;
+    position: absolute;
+    right: 1px;
+    // margin-top: 10px;
+    overflow: hidden; 
+}
+
+.digital_eng_imgs>img{
+    height: 85vh;
+    transition: transform 1s;
+}
+
+.digital_eng_imgs:hover>img{
+    transform: scale(1.2);
+}
+
+.digital_transp-style{
+    font-size: 70px;
+    width:50%;
+    font-weight: 600;
+    font-family: Poppins;
+    color: white;
+    // margin-left: 30px;
+   margin:50px;
+
+    padding: 1px;
+    
+}
+
+.digts_trnsp_p{
+    font-size: 24px;
+    width:45%;
+    font-weight: 200;
+    font-family: Poppins;
+    color:white;
+    margin:10px;
+    margin-left: 30px;
+    padding:10px
+}
+
+.digital-client_wrap{
+    background-color: #332c2c;
+    width: 100%;
+    height: 120vh;
+    margin-top: -50px;
+}
+
+.digts_trnsfor_btn{
+    background-color: aqua;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-radius: 3.5rem;
+    border-color: aqua;
+    font-size: 15px;
+    font-weight: 600;
+    height:43px;
+    width:10.2rem;
+    margin-left:45px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+
+// DIgital offering
+
+.digital_offer_container{
+    height: 100vh;
+
+    width: 100%;
+    background: rgb(36,210,208);
+  background: linear-gradient(90deg, rgba(36,210,208,1) 0%, rgba(76,158,207,1) 63%, rgba(139,80,227,1) 100%); 
+}
+
+.digtal__offer_h2{
+    font-size: 65px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: white;
+    margin-left: 80px;
+}
+
+
+.digital_contains{
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digital_contains  .digital_box{
+    position: relative;
+    width: 410px;
+    height: 400px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.digital_contains  .digital_box:hover{
+    z-index: 1;
+    transform: scale(1.27);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+.digital_contains  .digital_box .digit_imgBox{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.digital_contains  .digital_box .digit_imgBox::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+   
+background: linear-gradient(180deg, rgb(247, 120, 120), #241d1b);
+mix-blend-mode: multiply;
+ opacity: 0;
+transition: 0.5s;
+}
+
+.digital_contains  .digital_box:hover .digit_imgBox::before{
+    opacity: 1;
+}
+
+.digital_contains  .digital_box .digit_imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.digital_contains  .digital_box .digt_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.digital_contains  .digital_box .digt_content h2{
+    color: #fff;
+    transform: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 30px;
+    transform: translateY(200px);
+
+}
+
+
+.digital_contains  .digital_box:hover .digt_content h2{
+    transform: translateY(0);
+   transition-delay: 0.6s;
+}
+
+.digital_contains  .digital_box .digt_content p{
+    color: #fff;
+    transform: translateY(200px);
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.digital_contains  .digital_box:hover .digt_content p{
+  transform: translateY(0);
+  transition-delay: 0.6s;
+}

@@ -1,0 +1,157 @@
+.finance_details{
+    height: 95vh;
+    width:100%;
+    background-color: rgb(237, 237, 237);
+}
+
+
+.bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+  
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    // background: rgb(237, 237, 237);
+    background: rgb(53,183,204);
+    background: linear-gradient(93deg, rgba(53,183,204,1) 0%, rgb(201, 185, 185) 53%);
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: aqua;
+  }
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+     background: rgb(237, 237, 237);
+
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    font-size: 54px;
+    font-weight: 500;
+    padding: 0px 0 5px 0px;
+    margin-left: 12px;
+  }
+  .content hr {
+    width: 300px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+    margin-left: 12px;
+  }
+  .content p {
+    width: 50%;
+    height: 100%;
+    color: #323030;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin:50px 12px 40px;
+  }
+  .active-content {
+    display: block;
+  }
+
+
+  .finance_talk_btn{
+    background-color: aqua;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-radius: 3.5rem;
+    border-color: aqua;
+    font-size: 15px;
+    font-weight: 600;
+    height:43px;
+    width:20rem;
+    margin-left:20px;
+    position: absolute;
+    word-spacing: 1.3px;
+    letter-spacing: 1px;
+  }
+
+
+  .retail-finance-img{
+     position:absolute;
+ width:36rem;
+height: 25rem;
+margin-top: -5px;
+ 
+right:1rem;
+// top:80rem;
+ overflow: hidden;
+  }
+
+  .retail-finance-img>img{
+    height: 25rem;
+   transition: transform 1s;
+
+}
+
+
+.retail-finance-img:hover>img{
+    transform: scale(1.2);
+}
+
+
+
+// coprator pages
+
+
+.retals_trans_img{
+    position:absolute;
+width:34rem;
+height: 26rem;
+margin-top: -15px;
+
+right:1rem;
+// top:80rem;
+overflow: hidden;
+ }
+
+ .retals_trans_img>img{
+   height: 26rem;
+   width:34rem;
+  transition: transform 1s;
+
+}
+
+
+.retals_trans_img:hover>img{
+   transform: scale(1.2);
+}
+
